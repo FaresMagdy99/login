@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         Login = (Button)findViewById(R.id.btnLogin);
 
         Info.setText("No of attempts remaining: 5");
-
+        Count++;
         Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
